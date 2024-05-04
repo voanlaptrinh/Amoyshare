@@ -1,0 +1,344 @@
+body{
+    background: #FFF;
+}
+
+.backgroud-whi {
+    background: #E6E6E6;
+}
+.backgroud-whil {
+    background: #F9FAFB;
+}
+.backgroud-f1 {
+    background: #F1F1F1;
+}
+.backgroud-f6{
+    background: #F6F2FF;
+    border-radius:25px;
+}
+.btn-started{
+    background: #7756FE;
+    color: white !important;
+    border-radius: 50px;
+}
+.backgroud-border {
+    width: 30px; /* Độ rộng của ô border */
+    height: 30px; /* Chiều cao của ô border */
+   background: #F6F2FF; /* Đường viền */
+    border-radius: 50%; /* Bo góc để tạo hình tròn */
+    display: flex; /* Hiển thị theo kiểu flexbox */
+    justify-content: center; /* Căn giữa theo chiều ngang */
+    align-items: center; /* Căn giữa theo chiều dọc */
+}
+.buttum-gradient{
+    background-image: linear-gradient(to right, #B871FE, #684FFF);
+  
+}
+.backgroud-gradient{
+    background: linear-gradient(to right, #B871FE, #684FFF);
+}
+.card {
+    position: relative;
+    --bs-card-bg: none
+    
+}
+
+.notification-icon {
+    position: absolute;
+    top: -12px;
+    right: 50%;
+    transform: translate(50%, -50%);
+    z-index: 9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.notification-icon p {
+    text-align: center;
+    width: 150px;
+    height: 40px;
+    background: #7E3AF2;
+    border-radius: 10px 10px 0 0;
+    padding-top: 8px;
+    color: white;
+}
+.color-tim {
+    color: #A56AFE;
+}
+.color-tim2 {
+    color: #7E3AF2;
+}
+.color-tim-3 {
+    color: #6600CC;
+}
+
+.download-for {
+    color: #30333A;
+    font-weight: 600;
+    line-height: 33px;
+}
+
+.content-text-banner {
+    font-weight: 400;
+}
+
+.img-trademark img {
+    filter: grayscale(100%); /* Mặc định ảnh sẽ hiển thị màu xám */
+    transition: filter 0.3s ease; /* Thêm hiệu ứng chuyển đổi màu */
+}
+
+.img-trademark img:hover {
+    filter: grayscale(0%);
+    cursor: pointer; /* Khi rê chuột vào ảnh, loại bỏ màu xám */
+}
+.text-gray{
+    color: #797979;
+}
+.size-20{
+    font-size: 20px;
+}
+.size-18{
+    font-size: 18px;
+}
+.size-16{
+    font-size: 16px;
+}
+.size-14{
+    font-size: 14px;
+}
+.size-12{
+    font-size: 12px;
+}
+.size-22{
+    font-size: 22px;
+}
+.size-24{
+    font-size: 24px;
+}
+.size-48{
+    font-size: 48px;
+}
+.size-8{
+    font-size: 8px;
+}
+.border-radius-gray{
+    border: 1px solid #DBDBDB;
+    border-radius: 25px;
+    
+}
+.border-radius-gray-25{
+    border-top: 6px solid #7E3AF2;
+    border-radius: 6px; 
+    
+}
+.border-radius{
+    border: 1px solid #DBDBDB;
+    border-radius: 6px;
+    
+}
+
+.pding-16-9{
+padding: 9px 16px 9px 16px;
+ font-weight: 600;
+}
+@media (min-width: 1200px) {
+    .text-banner {
+        font-size: 58px;
+    }
+
+    .content-text-banner {
+        font-size: 22px;
+    }
+    .full-image2{
+        width: 700px;
+    }
+    .border-radius-gray{
+        height: 600px;
+    }
+
+    /* .full-image2 {
+        width: 600px;
+    } */
+
+}
+
+@media (max-width: 768px) {
+    .u-f {
+        display: none;
+    }
+    .img-banner-ipad {
+        width: 100% !important;
+    }
+  
+}
+@media (min-width: 768px) {
+    .full-image {
+        width: 900px;
+    }
+    .full-image6 {
+        width: 840px;
+        z-index: 1;
+    }
+    .ban3{
+        position: absolute;
+        right: 0;
+        z-index: 0;
+        margin-top: -670px;
+    }
+  
+}
+@media (min-width: 768px) {
+    .full-image {
+        width: 900px;
+    }
+  
+}
+@media only screen and (max-device-width: 1024px) {
+    .u-f {
+        display: none;
+    }
+    .full-image {
+        width: 680px;
+    }
+    .full-image2 {
+        width: 600px;
+    }
+    .full-image3 {
+        width: 70%;
+    }
+    .full-image4 {
+        width: 60%;
+    }
+    .top-aipad{
+        margin-top: -50px;
+    }
+    .nine{
+        display: none !important;
+    }
+    .ban3{
+        display: none !important;
+    }
+    .full-image6{
+        width: 100%;
+    }
+}
+@media (min-width: 1024px) {
+    .u-f {
+        display: block;
+    }
+   
+}
+
+@media only screen and (max-width: 767px) {
+    .full-image{
+        width: 100%;
+    }
+    .top-aipad{
+        margin-top: auto;
+    }
+    .full-image3 {
+        width: 100%;
+    }
+    .size-20{
+        font-size: 16px;
+    }
+    .size-24{
+        font-size: 20px;
+    }
+    .size-18{
+        font-size: 12px;
+    }
+    .size-48 {
+        font-size: 38px;
+    }
+    .size-22 {
+        font-size: 18px;
+    }
+}
+.btn-white-border{
+    background: none;
+    border: 1px solid #DBDBDB;
+}
+.btn-white-border:hover{
+    background: none;
+    border: 1px solid #DBDBDB;
+}
+.border-16{
+    border-radius: 16px;
+}
+.border-50{
+    border-radius: 50px;
+}
+.accordion-button:not(.collapsed){
+    color: black;
+    background: none !important;
+    -webkit-box-shadow: none  !important;
+}
+.accordion-item{
+    border: none !important;
+    
+}
+
+.weight-500{
+    font-weight: 600;
+}
+.h-600{
+    height: 600px;
+}
+.text-justify{
+    text-align: justify;
+}
+
+
+
+
+.input-group2.input-group2-dynamic .form-control2,.input-group2.input-group2-static .form-control2 {
+    background: no-repeat bottom,50% calc(100% - 1px);
+    background-size: 0 100%,100% 100%;
+    transition: .2s ease
+}
+
+
+
+.input-group2.input-group2-dynamic .form-control2,.input-group2.input-group2-dynamic .form-control2:focus,.input-group2.input-group2-static .form-control2,.input-group2.input-group2-static .form-control2:focus {
+    background-image: linear-gradient(0deg,#7E3AF2 2px,rgba(156,39,176,0) 0),linear-gradient(0deg,#d2d2d2 1px,hsla(0,0%,82%,0) 0);
+    border-radius: 0!important
+}
+
+.input-group2.input-group2-dynamic .form-control2:focus,.input-group2.input-group2-static .form-control2:focus {
+    background-size: 100% 100%,100% 100%
+}
+
+.input-group2.input-group2-dynamic .form-control2[disabled],.input-group2.input-group2-static .form-control2[disabled] {
+    cursor: not-allowed;
+    background-image: linear-gradient(0deg,#7E3AF2 2px,rgba(156,39,176,0) 0),linear-gradient(0deg,#f0f2f5 1px,hsla(0,0%,82%,0) 0)!important
+}
+
+
+
+.input-group2.input-group2-dynamic.is-focused label,.input-group2.input-group2-static.is-focused label {
+    color: #7E3AF2
+}
+
+.btn-background072{
+    background: #7250DC;
+}
+
+.form-control2 {
+    border: none
+}
+
+.form-control2.is-invalid {
+    border: 1px solid #d2d6da;
+    padding: .625rem .75rem;
+    line-height: 1.3!important
+}
+.app-store-btn , .play-store-btn{
+    border: 1px solid #D0D0D0 !important;
+}
+.text-o::after {
+    content: " | ";
+}
+
+
+
