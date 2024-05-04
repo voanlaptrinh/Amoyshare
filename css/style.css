@@ -29,10 +29,18 @@ body{
     justify-content: center; /* Căn giữa theo chiều ngang */
     align-items: center; /* Căn giữa theo chiều dọc */
 }
-.buttum-gradient{
+.buttum-gradient {
     background-image: linear-gradient(to right, #B871FE, #684FFF);
-  
+    transition: background-position 1s linear; 
+    background-size: 200% auto; 
+    background-position: 0 0; 
 }
+
+.buttum-gradient:hover {
+    background-position: 100% 0; /* Di chuyển gradient sang phải */
+}
+
+
 .backgroud-gradient{
     background: linear-gradient(to right, #B871FE, #684FFF);
 }
@@ -255,14 +263,28 @@ padding: 9px 16px 9px 16px;
         font-size: 18px;
     }
 }
-.btn-white-border{
+.btn-white-border {
     background: none;
     border: 1px solid #DBDBDB;
+    transition: color 0.3s, border-color 0.3s;
 }
-.btn-white-border:hover{
-    background: none;
-    border: 1px solid #DBDBDB;
+
+.btn-white-border:hover {
+    color: white;
+    border: 1px solid transparent; 
+    background-image: linear-gradient(to right, #B871FE, #684FFF);
+    animation: gradientSlide 3s infinite;
 }
+
+@keyframes gradientSlide {
+    0% {
+        background-position: 0% 50%; 
+    }
+    100% {
+        background-position: 100% 50%;
+    }
+}
+
 .border-16{
     border-radius: 16px;
 }
@@ -322,6 +344,9 @@ padding: 9px 16px 9px 16px;
 
 .btn-background072{
     background: #7250DC;
+}
+.btn-background072:hover{
+    background: #916efc;
 }
 
 .form-control2 {
